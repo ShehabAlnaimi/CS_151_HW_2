@@ -12,8 +12,11 @@ public class ArrayListUtils {
      * @return the total sum of all elements in the array
      */
     public static int sum(ArrayList<Integer> arr) {
-        // TODO: implement this method on a separate branch. Should return sum of all elements in the array list
-        return 0;
+        int sum = 0;
+        for(Integer number : arr){
+            sum += number;
+        }
+        return sum;
     }
 
     /**
